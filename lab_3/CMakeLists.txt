@@ -1,0 +1,1 @@
+add_executable(ex_3_1 ex_1.cpp)

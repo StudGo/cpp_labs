@@ -1,0 +1,6 @@
+add_executable(ex_8_1 ex_1.cpp)
+target_include_directories(ex_8_1 PUBLIC ${CMAKE_SOURCE_DIR}/lab_6)
+add_executable(ex_8_2 ex_2.cpp ${CMAKE_SOURCE_DIR}/lab_6/my_string.cpp ${CMAKE_SOURCE_DIR}/lab_6/my_string_utils.cpp)
+target_include_directories(ex_8_2 PUBLIC ${CMAKE_SOURCE_DIR}/lab_6)
+add_executable(ex_8_3 ex_3.cpp)
+add_executable(ex_8_4 ex_4.cpp)
